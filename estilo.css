@@ -9,7 +9,7 @@
 header {
     background-color: rgb(67, 41, 209);
     color: white;
-    padding: 15px;
+    padding: 20px;
 }
 
 header > nav {
@@ -17,10 +17,22 @@ header > nav {
 }
 
 header > nav > li {
-    margin: 5px 0 5px 25px;
+    margin: 5px 0 5px 19px;
     list-style-type: none;
 
 }
+
+header > nav > li#entrar a {
+    background-color: rgb(0, 191, 224);
+    margin-left: 10px;
+}
+
+header > nav > li#entrar a:hover {
+    background-color: rgba(241, 241, 241, 0.397);
+    color: white;
+    margin-left: 10px;
+}
+
 
 header > nav > li > a {
     color: white; 
@@ -31,4 +43,31 @@ header > nav > li > a {
 header > nav > li a:hover {
     background-color: rgba(247, 247, 247, 0.356);
     color: rgb(9, 255, 0);
+}
+
+section#principal {
+    margin: 50px 10px;
+    height: 100px;
+    background-color: rgba(230, 230, 230, 0.349);
+    color: rgb(73, 68, 68);
+}
+
+section#principal p {
+    margin-top: 5px;
+    text-align: justify;
+    color: rgba(73, 68, 68, 0.87);
+}
+
+section#principal h3, p {
+    margin: 10px;
+}
+
+section#fundo_jfood {
+    height: 300px;
+    margin: -20px 10px;
+}
+
+section#produtos {
+    margin: 70px 10px ;
+    background-color: red;
 }
